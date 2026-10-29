@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "dropall",
+  "version": "${version}",
+  "name": "Drop All Button",
+  "description": "Кнопка «Выкинуть всё» в инвентаре и контейнерах.",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["dropall.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
